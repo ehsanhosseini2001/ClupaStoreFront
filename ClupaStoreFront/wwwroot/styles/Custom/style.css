@@ -1,0 +1,50 @@
+﻿body{
+    background-color: lightgray;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.menu-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 0;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+    .sidenav a {
+        padding: 8px 40px 20px 40px;
+        text-align: right;
+        direction: rtl;
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
