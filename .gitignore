@@ -1,0 +1,10 @@
+﻿/ClupaStoreFront/bin
+/ClupaStoreFront/obj
+/ClupaStoreFront/Properties
+/.vs/
+
+*.sou
+*.cache
+*.dll
+*.pdb
+*.props
